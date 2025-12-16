@@ -12,7 +12,16 @@
 
 ![Process Scanner Screenshot](./screenshots/app.png)
 
-## Installation
+## Run
+Cargo:
+
+```bash
+git clone https://github.com/Sarmirim/cereb_native.git
+cd cereb_native
+cargo run 2>&1
+```
+
+## Build release
  Cargo:
 
 ```bash
