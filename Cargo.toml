@@ -1,0 +1,9 @@
+[package]
+name = "test0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12", features = ["tokio", "image"] }
+sysinfo = "0.30"
+winapi = { version = "0.3", features = ["processthreadsapi", "memoryapi", "winnt", "handleapi", "errhandlingapi"] }
